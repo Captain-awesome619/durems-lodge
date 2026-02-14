@@ -257,7 +257,7 @@ useGSAP(() => {
   <div className="flex flex-col lg:gap-4 gap-6">
     <h4
       ref={homeAwayRef}
-      className="lg:text-[35px] text-[22px] font-semibold font-inter text-white opacity-0"
+      className="lg:text-[35px] text-[22px] italic font-semibold font-inter text-white opacity-0"
     >
       A Home Away From Home
     </h4>
