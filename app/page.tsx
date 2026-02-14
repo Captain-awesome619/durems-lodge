@@ -245,7 +245,7 @@ useGSAP(() => {
       </div>
       <div
   ref={container}
-  className="flex flex-col items-center lg:justify-center h-full lg:gap-5 gap-8 lg:pt-[18%] pt-[72%]"
+  className="flex flex-col items-center lg:justify-center h-full lg:gap-5 gap-8 lg:pt-[18%] pt-[55%]"
 >
   <h3
     ref={lodgeRef}
@@ -524,14 +524,14 @@ View Details
 
 <div className="flex flex-col gap-4 items-center justify-center pt-4">
 <div className="flex items-center justify-center gap-2"> 
-<div className=" h-[0.5px]  lg:w-160 w-33 bg-[#FEB420] "></div>
+<div className=" h-[0.5px]  lg:w-160 w-32 bg-[#FEB420] "></div>
 <h3 className="font-bold text-white font-inter text-[15px] lg:text-[22px]">
 Guest Reviews
 </h3>
-<div className=" h-[0.5px]  lg:w-160 w-33 bg-[#FEB420] "></div>
+<div className=" h-[0.5px]  lg:w-160 w-32 bg-[#FEB420] "></div>
 </div>
 <div ref={testimonialRef}  className="flex flex-col items-center justify-center gap-2">
-<h5  ref={quoteRef} className="lg:text-[18px] text-center text-[15px] text-white italic font-inter font-bold">
+<h5  ref={quoteRef} className="lg:text-[18px] text-center text-[15px] w-[95%] text-white italic font-inter font-bold">
   “Exceptional comfort and service. Truly a home away from home.”
 </h5>
 <div ref={starsRef} className="flex items-center justify-center gap-2">
