@@ -35,12 +35,12 @@ const NavBar = () => {
   return (
     <>
       {/* ================= DESKTOP NAVBAR ================= */}
-      <div className="hidden lg:flex justify-between">
+      <div className="hidden lg:flex justify-between items-center">
         <div>
           <Image src={logo} alt="Logo" width={60} height={50} className="object-contain ml-4" />
         </div>
 
-        <div className='flex justify-center gap-8 items-center'>
+        <div className='flex justify-center gap-8 items-center mr-6'>
           {["Home", "Rooms", "Amenities", "Gallery", "Contact"].map((item) => (
             <h5
               key={item}
